@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Box Group Float and Clear</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .block {
+            width: 150px;
+            height: 150px;
+            line-height: 150px;
+            text-align: center;
+        }
+        
+        .clr {
+            clear: both;
+        }
+        
+        .ba {
+            background-color: brown;
+            float: left;
+        }
+        
+        .bb {
+            background-color: rgb(35, 133, 172);
+            float: left;
+        }
+        
+        .bc {
+            background-color: rgb(204, 102, 19);
+            float: right;
+        }
+        
+        .bd {
+            background-color: rgb(17, 184, 17);
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class=" block ba">A</div>
+    <div class=" block bb">B</div>
+    <div class="block bc">C</div>
+    <div class="clr"></div>
+    <div class="block bd">D</div>
+
+</body>
+
+</html>

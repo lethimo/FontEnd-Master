@@ -1,0 +1,210 @@
+body {
+    background-color: #f1f1f2 !important
+}
+
+.owl-carousel-container {
+    position: relative;
+    margin: 0 -12px
+}
+
+.mycard-link,
+.mycard-link:hover,
+.mycard-link:focus {
+    color: inherit;
+    text-decoration: none
+}
+
+.mycard-container {
+    margin: 0 12px;
+    margin-bottom: 5px;
+    position: relative;
+    background: #fff;
+    box-shadow: 0 1px 2px rgba(43, 59, 93, 0.30);
+    border-radius: 10px !important
+}
+
+.mycard-container:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.mycard-container .mycard-img {
+    position: relative;
+    width: 100%;
+    padding-top: 60%;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0
+}
+
+.mycard-container .mycard-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0
+}
+
+.mycard-container .mycard-img-overlayer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.6)
+}
+
+.mycard-container:hover .mycard-img-overlayer {
+    opacity: 0.5
+}
+
+.mycard-container .mycard-img-bottom {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 5px
+}
+
+.mycard-container .rating-star {
+    display: inline-block;
+    border-radius: 3px 3px 3px 3px;
+    padding: 2px 4px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    background: #f2b01e;
+    float: left
+}
+
+.mycard-container .rating-number {
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    padding-left: 5px
+}
+
+.mycard-container .join-number {
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    float: right
+}
+
+.mycard-container .mycard-body {
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.mycard-container .mycard-title {
+    height: 52px;
+    line-height: 24px;
+    font-weight: 500;
+    font-size: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2
+}
+
+.mycard-container .teacher-name {
+    color: #656565
+}
+
+.mycard-container .teacher-position {
+    height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2
+}
+
+.mycard-container .popover-content {
+    display: none
+}
+
+.popover-purpose {
+    list-style-type: inherit;
+    margin-left: -23px !important
+}
+
+.popover-purpose li {
+    margin-bottom: 10px
+}
+
+.popover {
+    max-width: 350px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 5px
+}
+
+.popover-course-name {
+    margin: 10px 0px 0px 0px;
+    font-size: 26px;
+    font-weight: 500
+}
+
+.popover-course-description {
+    margin: 15px 0;
+    font-size: 20px;
+    line-height: 26px
+}
+
+.owl-carousel-container .btn-navigate-slide {
+    position: absolute !important;
+    z-index: 1;
+    cursor: pointer;
+    top: 40% !important;
+    background-color: #FFF
+}
+
+.owl-carousel-container .btn-navigate-slide:hover {
+    background-color: #FFF
+}
+
+.owl-carousel-container .btn-navigate-slide:active {
+    background-color: #FFF !important;
+    color: #00bcd4 !important
+}
+
+.owl-carousel-container .btn-prev-slide {
+    float: left;
+    left: -10px
+}
+
+.owl-carousel-container .btn-next-slide {
+    float: right;
+    right: -10px
+}
+
+.owl-carousel-container .nav-icons {
+    font-size: 28px !important
+}
+
+.category-container {
+    margin: 0 -12px
+}
+
+.category-container .mycard-container {
+    margin-bottom: 10px
+}
+
+.category-container .category-wrapper {
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    display: inline-flex
+}
+
+.category-container .category-icon {
+    font-size: 24px;
+    margin-right: 10px
+}

@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>List Group CSS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/carousel.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/course-index.css" />
+    <script src="main.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark  navbar-dark">
+        <div class="container">
+            <div class="navbar-translate">
+                <a class="navbar-brand" href="#0">
+                    <img src="../images/Codewitty_Logo.png" style="width: 100px; height:55px; margin-bottom: 5px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="navbar-toggler-icon"></span>
+                            <span class="navbar-toggler-icon"></span>
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a href="course-index.html" target="blank" class="nav-link">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Competitions<div class="ripple-container"></div></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#" class="nav-link">Forums</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Rank<div class="ripple-container"></div></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact<div class="ripple-container"></div></a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="login.html" id="login_button" class="btn btn-default btn-round ">
+                              Sign In
+                            </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="register.html" id="register_button" class="btn btn-warning btn-round ">
+                              Register
+                            </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main role="main">
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="first-slide" src="../images/BLOG_EN_0510_Most-Useful-Coding-and-Programming-Languages-to-Know.jpg" alt="First slide">
+                    <div class="container">
+                        <div class="carousel-caption text-left">
+                            <h1> Course </h1>
+                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Enroll now</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="second-slide" src="../images/shutterstock_753972046-850x476.jpg" alt="Second slide">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Competition</h1>
+                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Join now</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="third-slide" src="../images/Learn-coding-online.jpeg" alt="Third slide">
+                    <div class="container">
+                        <div class="carousel-caption text-right">
+                            <h1>IDE</h1>
+                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Practice skill coding</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!-- danh sách khóa học-->
+        <div class="container">
+            <h3>Danh mục khoá học đang cung cấp</h3>
+            <div class="category-container">
+                <div class="row no-gutters">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12">
+                        <a href="#" class="mycard-link">
+                            <div class="mycard-container">
+                                <div class="category-wrapper">
+                                    <i class="fas fa-laptop-code category-icon"></i>
+                                    <span>IT và lập trình</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12">
+                        <a href="#" class="mycard-link">
+                            <div class="mycard-container">
+                                <div class="category-wrapper">
+                                    <i class="fas fa-palette category-icon"></i>
+                                    <span>Thiết kế đồ hoạ</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12">
+                        <a href="#" class="mycard-link">
+                            <div class="mycard-container">
+                                <div class="category-wrapper">
+                                    <i class="fas fa-language category-icon"></i>
+                                    <span>Ngoại ngữ</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12">
+                        <a href="#" class="mycard-link">
+                            <div class="mycard-container">
+                                <div class="category-wrapper">
+                                    <i class="fas fa-file-excel category-icon"></i>
+                                    <span>Vi tính văn phòng</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <h3>Khoá học nổi bật cho bạn</h3>
+            <div class="owl-carousel-container">
+                <a id='course-prev' class='btn-navigate-slide btn-prev-slide btn btn-fab btn-round'><i class="fa fa-chevron-left nav-icons"></i></a>
+                <a id='course-next' class='btn-navigate-slide btn-next-slide btn btn-fab btn-round'><i class="fa fa-chevron-right nav-icons"></i></a>
+                <div id="course-slider" class="owl-carousel">
+                    <a href="#" class="mycard-link" data-toggle="popover" data-popover-content="#course-id-1">
+                        <div class="mycard-container">
+                            <div class="mycard-img">
+                                <img class="lazyOwl" data-src="https://webmax.vn/wp-content/uploads/2018/07/L%E1%BA%ADp-tr%C3%ACnh-h%C6%B0%E1%BB%9Bng-%C4%91%E1%BB%91i-t%C6%B0%E1%BB%A3ng.png" alt="">
+                                <div class="mycard-img-bottom">
+                                    <span class="rating-star">5<span class="fa fa-star"></span></span>
+                                    <span class="rating-number">(100)</span>
+                                    <span class="join-number"><span class="fa fa-user"></span>100 học viên</span>
+                                </div>
+                                <div class="mycard-img-overlayer"></div>
+                            </div>
+                            <div class="mycard-body">
+                                <div class="mycard-title">Lập trình hướng đối tượng</div>
+                                <div class="teacher-name">Nguyễn Nguyễn</div>
+                                <div class="teacher-position">Giảng viên Công nghệ thông tin Đại học Khoa học Tự nhiên thành phố Hồ Chí Minh</div>
+                            </div>
+                            <div id="course-id-1" class="popover-content">
+                                <div>Cập nhật: 01/04/2019</div>
+                                <div class="popover-course-name">Lập trình hướng đối tượng</div>
+                                <div>IT và lập trình</div>
+                                <div>Trình độ: Mới bắt đầu</div>
+                                <p class="popover-course-description">Học các khái niệm cơ bản về máy tính, nguyên lý hoạt động của máy tính.</p>
+                                <ul class="popover-purpose">
+                                    <li>Các khái niệm cơ bản về máy tính.</li>
+                                    <li>Nguyên lý hoạt động của máy tính.</li>
+                                    <li>Cấu trúc dữ liệu (Data Structure) và giải thuật (Algorithms).</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="mycard-link" data-toggle="popover" data-popover-content="#course-id-2">
+                        <div class="mycard-container">
+                            <div class="mycard-img">
+                                <img class="lazyOwl" data-src="http://key.com.vn/upload/article/contents/ky-thuat-lap-trinh-java-1.jpg" alt="">
+                                <div class="mycard-img-bottom">
+                                    <span class="rating-star">5<span class="fa fa-star"></span></span>
+                                    <span class="rating-number">(100)</span>
+                                    <span class="join-number"><span class="fa fa-user"></span>100 học viên</span>
+                                </div>
+                                <div class="mycard-img-overlayer"></div>
+                            </div>
+                            <div class="mycard-body">
+                                <div class="mycard-title">Lập trình Java</div>
+                                <div class="teacher-name">Phạm Phạm</div>
+                                <div class="teacher-position">Giảng viên CNTT đại học KHTN tpHCM</div>
+                            </div>
+                            <div id="course-id-2" class="popover-content">
+                                <div>Cập nhật: 01/04/2019</div>
+                                <div class="popover-course-name">Lập trình Java</div>
+                                <div>IT và lập trình</div>
+                                <div>Trình độ: Mới bắt đầu</div>
+                                <p class="popover-course-description">Học các khái niệm cơ bản về máy tính, nguyên lý hoạt động của máy tính.</p>
+                                <ul class="popover-purpose">
+                                    <li>Các khái niệm cơ bản về máy tính.</li>
+                                    <li>Nguyên lý hoạt động của máy tính.</li>
+                                    <li>Cấu trúc dữ liệu (Data Structure) và giải thuật (Algorithms).</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="mycard-link" data-toggle="popover" data-popover-content="#course-id-3">
+                        <div class="mycard-container">
+                            <div class="mycard-img">
+                                <img class="lazyOwl" data-src="https://laptrinhcuocsong.com/images/web-developer-big-banner.png" alt="">
+                                <div class="mycard-img-bottom">
+                                    <span class="rating-star">5<span class="fa fa-star"></span></span>
+                                    <span class="rating-number">(100)</span>
+                                    <span class="join-number"><span class="fa fa-user"></span>100 học viên</span>
+                                </div>
+                                <div class="mycard-img-overlayer"></div>
+                            </div>
+                            <div class="mycard-body">
+                                <div class="mycard-title">Lập trình web</div>
+                                <div class="teacher-name">Trần Trần</div>
+                                <div class="teacher-position">Giảng viên CNTT</div>
+                            </div>
+                            <div id="course-id-3" class="popover-content">
+                                <div>Cập nhật: 01/04/2019</div>
+                                <div class="popover-course-name">Lập trình web</div>
+                                <div>IT và lập trình</div>
+                                <div>Trình độ: Mới bắt đầu</div>
+                                <p class="popover-course-description">Học các khái niệm cơ bản về máy tính, nguyên lý hoạt động của máy tính.</p>
+                                <ul class="popover-purpose">
+                                    <li>Các khái niệm cơ bản về máy tính.</li>
+                                    <li>Nguyên lý hoạt động của máy tính.</li>
+                                    <li>Cấu trúc dữ liệu (Data Structure) và giải thuật (Algorithms).</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="mycard-link" data-toggle="popover" data-popover-content="#course-id-4">
+                        <div class="mycard-container">
+                            <div class="mycard-img">
+                                <img class="lazyOwl" data-src="https://megastudy.edu.vn/upload/tinymce/365.jpg" alt="">
+                                <div class="mycard-img-bottom">
+                                    <span class="rating-star">5<span class="fa fa-star"></span></span>
+                                    <span class="rating-number">(100)</span>
+                                    <span class="join-number"><span class="fa fa-user"></span>100 học viên</span>
+                                </div>
+                                <div class="mycard-img-overlayer"></div>
+                            </div>
+                            <div class="mycard-body">
+                                <div class="mycard-title">Khoa học máy tính</div>
+                                <div class="teacher-name">Đình Đình</div>
+                                <div class="teacher-position">Giảng viên CNTT đại học KHTN tpHCM</div>
+                            </div>
+                            <div id="course-id-4" class="popover-content">
+                                <div>Cập nhật: 01/04/2019</div>
+                                <div class="popover-course-name">Khoa học máy tính</div>
+                                <div>IT và lập trình</div>
+                                <div>Trình độ: Mới bắt đầu</div>
+                                <p class="popover-course-description">Học các khái niệm cơ bản về máy tính, nguyên lý hoạt động của máy tính.</p>
+                                <ul class="popover-purpose">
+                                    <li>Các khái niệm cơ bản về máy tính.</li>
+                                    <li>Nguyên lý hoạt động của máy tính.</li>
+                                    <li>Cấu trúc dữ liệu (Data Structure) và giải thuật (Algorithms).</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Marketing messaging and featurettes
+            ================================================== -->
+        <!-- Wrap the rest of the page in another container to center all the content. -->
+
+        <div class="container marketing">
+            <h2 class="title2"> Our Teacher</h2>
+
+            <!-- Three columns of text below the carousel -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <img class="rounded-circle" src="../images/teacher1.jpg" alt="Generic placeholder image" width="140" height="140">
+                    <h2>Jonh Smart</h2>
+                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+                </div>
+                <!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img class="rounded-circle" src="../images/teacher2.jpg" alt="Generic placeholder image" width="140" height="140">
+                    <h2>Ronaldo</h2>
+                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+                </div>
+                <!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img class="rounded-circle" src="../images/teacher3.jpeg" alt="Generic placeholder image" width="140" height="140">
+                    <h2>David beckham</h2>
+                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit
+                        amet risus.</p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+                </div>
+                <!-- /.col-lg-4 -->
+            </div>
+            <!-- /.row -->
+
+
+            <!-- START THE FEATURETTES -->
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 300px; height: 300px;" src="../images/learn-javascript-programming.jpg" data-holder-rendered="true">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="../images/C.png" data-holder-rendered="true" style="width: 300px; height: 300px;">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="../images/js.jpg" data-holder-rendered="true" style="width: 300px; height: 300px;">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <!-- /END THE FEATURETTES -->
+
+        </div>
+        <!-- /.container -->
+
+
+        <!-- FOOTER -->
+        <footer class="container footer">
+            <p class="float-right"><a href="#">Back to top</a></p>
+            <p>© 2017-2018 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+        </footer>
+    </main>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
+    <script type="text/javascript">
+        // Init course slider
+        $(document).ready(function() {
+            $("#course-slider").owlCarousel({
+                items: 4,
+                itemsDesktop: [1199, 3],
+                itemsDesktopSmall: [991, 2],
+                itemsMobile: [766, 1],
+                pagination: false,
+                navigation: false,
+                scrollPerPage: true,
+                lazyLoad: true,
+                // Show/hide the navigation button when missing element to display
+                afterInit: function() {
+                    var viewport = jQuery(window).width();
+                    var itemCount = jQuery("#course-slider .mycard-container").length;
+                    if ((viewport >= 1200 && itemCount > 4) ||
+                        ((viewport >= 992 && viewport < 1200) && itemCount > 3) ||
+                        ((viewport >= 767 && viewport < 992) && itemCount > 2) ||
+                        (viewport < 767 && itemCount > 1)) {
+                        jQuery('#course-next, #course-prev').show();
+                    } else {
+                        jQuery('#course-next, #course-prev').hide();
+                    }
+                },
+                afterUpdate: function() {
+                    var viewport = jQuery(window).width();
+                    var itemCount = jQuery("#course-slider .mycard-container").length;
+                    if ((viewport >= 1200 && itemCount > 4) ||
+                        ((viewport >= 992 && viewport < 1200) && itemCount > 3) ||
+                        ((viewport >= 767 && viewport < 992) && itemCount > 2) ||
+                        (viewport < 767 && itemCount > 1)
+                    ) {
+                        jQuery('#course-next, #course-prev').show();
+                    } else {
+                        jQuery('#course-next, #course-prev').hide();
+                    }
+                }
+            });
+        });
+        // Event click the navigation button on course slider
+        $('#course-next').click(function() {
+            $("#course-slider").trigger('owl.next');
+        });
+        $('#course-prev').click(function() {
+            $("#course-slider").trigger('owl.prev');
+        });
+        // Open popover when hover course link
+        $('#course-slider .mycard-link').popover({
+            html: true,
+            trigger: 'hover',
+            placement: 'right',
+            animation: true,
+            content: function() {
+                var elementId = $(this).attr("data-popover-content");
+                return $(elementId).html();
+            }
+        }).on('mouseenter', function() {
+            var _this = this;
+            $(this).popover('show');
+            $('.popover').on('mouseleave', function() {
+                $(_this).popover('hide');
+            });
+        }).on('mouseleave', function() {
+            var _this = this;
+            setTimeout(function() {
+                if (!$('.popover:hover').length) {
+                    $(_this).popover('hide');
+                }
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>

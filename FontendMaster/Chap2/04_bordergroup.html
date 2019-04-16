@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Border group</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .block {
+            width: 800px;
+            height: 300px;
+            border: 1px solid black;
+            margin: 5px auto;
+        }
+        
+        .border-group {
+            /*Trên trái dưới phải*/
+            border-width: 1px 4px 8px 10px;
+            border-color: blue green gray rebeccapurple;
+            border-style: solid dashed double groove;
+            padding: 10px;
+        }
+        
+        .border-group pre {
+            color: red;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class=" block border-group">
+        <pre>
+        Có 3 nhóm thuộc tính:
+            - Border-width: độ rộng 
+            - Boder-color:
+            - Border-style: doted, dashed, solid, groove
+        Có tính đối xứng, theo thứ tự Trên trái dưới phải.
+        </pre>
+    </div>
+</body>
+
+</html>
