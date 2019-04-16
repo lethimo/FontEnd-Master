@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Position Group</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .block {
+            width: 400px;
+            height: 250px;
+            border: 2px solid red;
+            margin: 50px auto;
+            position: relative;
+        }
+        
+        .box {
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+            text-align: center;
+            line-height: 100px;
+        }
+        
+        .A {
+            background-color: aqua;
+            bottom: 0px;
+            left: 0px;
+            position: absolute;
+        }
+        
+        .B {
+            background-color: blue;
+            top: 0px;
+            right: 0px;
+            position: absolute;
+        }
+        
+        .C {
+            background-color: blueviolet;
+            top: 0px;
+            left: 0px;
+            position: absolute;
+        }
+        
+        .D {
+            background-color: orangered;
+            bottom: 0px;
+            right: 0px;
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <!---
+    position: 
+    top: quy định khoảng cách từ đối tượng đến top
+    bottom
+    left
+    right
+    z-index
+    overload
+    -->
+    <div class="block">
+        <div class="box A">A</div>
+        <div class="box B">B</div>
+        <div class="box C">C</div>
+        <div class="box D">D</div>
+    </div>
+
+
+</body>
+
+</html>
