@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.right{
+    width: 300px;
+    display: block;
+    background-color: aliceblue;
+    padding: 10px;
+    border: 1px solid #000;
+    text-align: justify;
+}
+
+.boxA_T{
+    border: 1px solid yellow;
+    background-color: aquamarine;
+    
+}
+.header{
+    font: italic bold 24px/47px Arial, Helvetica, sans-serif;
+    padding-left: 32px;
+}
+.line{
+    height: 1.5px;
+    background-color: #fff ;
+}
+.content{
+    padding: 10px;
+}

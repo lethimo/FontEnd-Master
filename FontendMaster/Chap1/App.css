@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.block{
+    width: 400px;
+    height: 200px;
+    border: 1px solid red;
+}
+.txt{
+     /*rut gon font
+    font: font-variant font-weight font-size/line-height font-family*/
+    font:  bold 18px/30px sans-serif;
+    text-transform: lowercase;
+    text-decoration: underline;
+    color: green;
+}
+.bg {
+    background-color: aqua;
+    background-image: url(\Picture2.png);
+}
+#main {
+    display: table;
+}
+.left {
+    width: 200px;
+    height: 80px;
+    border: 1px solid red;
+    background-color: red;
+    display: table-cell;
+}
+.content {
+    width: 200px;
+    height: 80px;
+    border: 1px solid rgb(37, 10, 10);
+    background-color: rgb(49, 9, 9);
+    display: table-cell;
+}
+.right {
+    width: 200px;
+    height: 80px;
+    border: 1px solid rgb(48, 184, 55);
+    background-color: rgb(48, 184, 55);
+    display: table-cell;
+}
+/*SELECTOR trong CSS*/
+/*dung khi co su kien action*/
+input:focus{
+    background: yellow;
+
+}
+
+/*p::first-child , p::first-line, p::first-letter*/ 
+
+p::before{
+    content: "Lee Thi Mo dang hoc";
+}
+p::after{
+    content: "By Zendvn";
+   
+}

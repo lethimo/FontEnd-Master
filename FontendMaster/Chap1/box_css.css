@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.right{
+    width: 300px;
+    border: 1px solid yellowgreen;
+    margin: 10px 30px;
+    padding: 10px;
+    background-color: rgba(220, 220, 243, 0.662);
+}
+/*BoxA*/
+.boxA{
+    background: gainsboro;
+    padding: 20px 15px;
+}
+.boxA content{
+    /* đối với box chứa nội dung, nên đưa thêm 1 class content
+     để định dạng riêng cho nội dung*/
+     font-size: 12px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+/*BoxB*/
+.boxB{
+    background: gainsboro;
+    padding: 20px 15px;
+    border: 1px solid salmon;
+    text-align: justify;
+}
+.boxB content{
+     font-size: 12px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+/*BoxC*/
+
+.boxC{
+    background: url(images/tc.jpg) left top repeat-x #feffff;
+    padding: 20px 15px;
+    border: 2px solid salmon;
+    text-align: justify;
+}
+.boxC content{
+     font-size: 12px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+/*BoxD*/
+/*Bg có 2 hình với chiều cao từ trên xuống 122, từ dưới lên 122. nếu BOX có tổng 
+chiều cao <122px thì backgrond sẽ hiển thị chồng lên nhau.
+
+-> cần thêm thuộc tính min_height*/
+.boxD{
+    border: 2px solid salmon;
+    text-align: justify;
+    background-color: #feffff;
+}
+
+.top{
+    background: url(images/tc.jpg) left top repeat-x;
+}
+.bottom{
+    height: 400px;
+    padding: 20px 15px;
+    min-height: 244px;
+    background: url(images/bc.jpg) left bottom repeat-x;
+}
+.content{
+     font-size: 12px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Box A Title*/
+.boxA_T{
+    background: rgb(108, 234, 148);
+    text-align: justify;
+    border: 1px solid #000;
+}
+.boxA_T .header{
+    /*font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 47px;
+    */
+    padding: 0px 31px;
+    font: italic bold 24px/47px Arial, Helvetica, sans-serif;
+}
+.boxA_T .line{
+    height: 1px;
+    background-color: #000;
+}
+
+.boxA_T .content{
+    padding: 12px;
+}
